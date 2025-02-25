@@ -1,13 +1,19 @@
-console.log("Hello from JS");
+function savetask(){
+    console.log("Task saved")
 
-function hello(){
-    console.log("Hello there!");
+    
+
+
 }
+
 
 function init(){
     console.log("im the init function");
-    hello();
 
+    //load data
+
+    //hook events
+    $("#btnSave").click(savetask);
 }
 
 
