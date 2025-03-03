@@ -1,4 +1,4 @@
-class task{
+class Task{
     constructor(title, description, color, startdate, status, budget){
         this.title = title;
         this.desc = description;

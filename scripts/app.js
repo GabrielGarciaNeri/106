@@ -75,7 +75,7 @@ function loadTask() {
             //Bring only the elements that belongs to you
             for (let i = 0; i < data.length; i++) {
                 let task = data[i];
-                if (task.name == "Adrian55") {
+                if (task.name == "Junior55") {
                     displayTask(task);
                 }
             }
@@ -93,7 +93,7 @@ function init(){
     //load data
     loadTask();
     //hook events
-    
+
     $("#btnSave").click(savetask);
 }
 
